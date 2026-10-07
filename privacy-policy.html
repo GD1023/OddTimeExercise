@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — OddTime</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #f5f2ed;
+      --card:      #ffffff;
+      --navy:      #0d1b3e;
+      --blue:      #5b8dd9;
+      --text:      #1a2b4a;
+      --muted:     #6b7280;
+      --border:    #e5e1db;
+      --green-bg:  #e8f5ef;
+      --green:     #4a9e7a;
+      --radius:    14px;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 40px 20px 80px;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .app-icon {
+      width: 72px;
+      height: 72px;
+      background: var(--navy);
+      border-radius: 18px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+      font-size: 32px;
+    }
+
+    header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--navy);
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 15px;
+      margin-top: 6px;
+    }
+
+    /* Green summary card */
+    .summary-card {
+      background: var(--green-bg);
+      border: 1px solid #c3e0d4;
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      margin-bottom: 36px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .summary-card .check {
+      font-size: 22px;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .summary-card p {
+      color: #2d6e55;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    /* Sections */
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      margin-bottom: 16px;
+    }
+
+    section h2 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 10px;
+    }
+
+    section p {
+      font-size: 15px;
+      color: var(--text);
+      margin-bottom: 10px;
+    }
+
+    section p:last-child { margin-bottom: 0; }
+
+    section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    section ul li {
+      font-size: 15px;
+      color: var(--text);
+      padding: 5px 0;
+      padding-left: 22px;
+      position: relative;
+    }
+
+    section ul li::before {
+      content: "–";
+      position: absolute;
+      left: 0;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 48px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    footer strong {
+      color: var(--navy);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg:       #0d1220;
+        --card:     #1a2134;
+        --navy:     #f0eeea;
+        --text:     #f0eeea;
+        --muted:    #9ba3b0;
+        --border:   #2b3349;
+        --green-bg: #182922;
+        --green:    #4a9e7a;
+      }
+
+      .summary-card { border-color: #2a4a3e; }
+      .summary-card p { color: #7ecfac; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="app-icon">🕐</div>
+      <h1>Privacy Policy</h1>
+      <p>OddTime &nbsp;·&nbsp; Geetansh Dhuria</p>
+    </header>
+
+    <div class="summary-card">
+      <span class="check">✅</span>
+      <p>OddTime does not collect, store, or share any personal data. Nothing leaves your device — ever.</p>
+    </div>
+
+    <section>
+      <h2>What data does OddTime collect?</h2>
+      <p>None. OddTime collects no personal information of any kind.</p>
+      <p>There are no user accounts, no sign-ups, and no forms that ask for your name, email, or any other identifying details (other than a first name you optionally enter within the app, which stays on your device).</p>
+    </section>
+
+    <section>
+      <h2>Where is my data stored?</h2>
+      <p>Everything OddTime saves — your exercise history, preferences, favorites, and streak — is stored locally on your iPhone using Apple's SwiftData framework. This data never leaves your device.</p>
+      <p>If you delete the app, all of this data is deleted with it.</p>
+    </section>
+
+    <section>
+      <h2>Does the app connect to the internet?</h2>
+      <p>No. OddTime makes no network requests. It works fully offline and does not communicate with any server, API, or cloud service.</p>
+    </section>
+
+    <section>
+      <h2>Does the app use analytics or tracking?</h2>
+      <p>No. OddTime contains no analytics SDKs, no crash reporting tools, no advertising frameworks, and no third-party tracking of any kind.</p>
+      <ul>
+        <li>No Google Analytics</li>
+        <li>No Firebase</li>
+        <li>No Facebook SDK</li>
+        <li>No Mixpanel or Amplitude</li>
+        <li>No advertising identifiers (IDFA)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Does the app access my camera, microphone, or location?</h2>
+      <p>No. OddTime does not request access to your camera, microphone, contacts, photos, calendar, GPS location, or any other device sensor or permission.</p>
+      <p>The word "location" in the app (At My Desk, On the Couch, etc.) refers to a situation you manually select — it is not GPS or location services.</p>
+    </section>
+
+    <section>
+      <h2>What about notifications?</h2>
+      <p>OddTime can send local reminder notifications if you choose to enable them in Settings. These reminders are scheduled entirely on-device and do not involve any server or third-party service. You can turn them off at any time from within the app or from iOS Settings.</p>
+    </section>
+
+    <section>
+      <h2>Is there a subscription or account?</h2>
+      <p>No. OddTime is completely free with no in-app purchases, subscriptions, or accounts of any kind.</p>
+    </section>
+
+    <section>
+      <h2>Children's privacy</h2>
+      <p>OddTime is rated 4+ and is suitable for all ages. Because the app collects no data, there are no special considerations for younger users.</p>
+    </section>
+
+    <section>
+      <h2>Changes to this policy</h2>
+      <p>If anything about this policy changes in a future version of the app, this page will be updated to reflect that. The "Last updated" date at the bottom of this page will change accordingly.</p>
+      <p>For a free app with no data collection, significant changes are unlikely.</p>
+    </section>
+
+    <footer>
+      <p><strong>OddTime</strong> &nbsp;·&nbsp; Developed by Geetansh Dhuria</p>
+      <p style="margin-top: 6px;">Last updated: October 2026</p>
+    </footer>
+
+  </div>
+</body>
+</html>
